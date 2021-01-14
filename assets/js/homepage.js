@@ -17,7 +17,7 @@ var getUserRepos = function(user) {
         }
         })
         // catch is getting chained onto .then function
-        .catchI(function (error) {  
+        .catch(function (error) {  
             alert("Unable to connect to GitHub")
         })
 }
